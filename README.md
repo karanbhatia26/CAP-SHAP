@@ -44,8 +44,8 @@ Below are TensorBoard logs from basic experiments (MPE environments).
 
 | Agent Training | Credit Assignment | Phase Analysis |
 |----------------|------------------|----------------|
-| ![agent0](shap_log1.png) | ![credit](shap_log2.png) | ![phases](shap_log3.png) |
-| ![agent1](shap_log5.png) | ![agent2](shap_log6.png) |   |
+| ![agent0](result/shap_log1.png) | ![credit](result/shap_log2.png) | ![phases](result/shap_log3.png) |
+| ![agent1](result/shap_log5.png) | ![agent2](result/shap_log6.png) |   |
 
 Results show **clear phase-level decomposition** and **improved interpretability** of agent contributions.
 
