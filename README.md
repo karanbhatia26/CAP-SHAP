@@ -57,3 +57,54 @@ Clone this repo:
 ```bash
 git clone https://github.com/YOUR_USERNAME/mappo-colab.git
 cd mappo-colab
+```
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+Run training:
+```bash
+python train/train_mappo.py --env_name mpe --algorithm_name mappo --use_phasewise_shapley
+```
+
+Visualize results:
+```bash
+tensorboard --logdir ./logs
+```
+---
+
+## 🤝 Contributing
+
+We welcome contributions to improve this research framework.
+Steps to Contribute
+
+1. Fork the repository.
+
+2. Create a new branch:
+```bash
+git checkout -b feature-name
+```
+
+Make your changes and commit:
+```bash
+git commit -m "Add feature-name"
+```
+
+Push and open a Pull Request.
+For details, see our [Contribution Guidelines](CONTRIBUTING.md).
+
+---
+## 📜 Code of Conduct
+We are committed to providing a welcoming environment.
+Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
+
+ ---
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+## 📑Citation
+If you find this work useful, please cite:
+```bibtex
+Karan Bhatia, Phase-Wise Shapley Credit Assignment for Temporal Decomposition in Multi-Agent Reinforcement Learning, 2025.
+```
